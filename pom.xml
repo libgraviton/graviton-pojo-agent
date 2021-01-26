@@ -28,6 +28,14 @@
     <url>git@github.com:libgraviton/graviton-pojo-agent.git</url>
   </scm>
 
+  <distributionManagement>
+    <repository>
+      <id>bintray-libgraviton-maven</id>
+      <name>libgraviton-maven</name>
+      <url>https://api.bintray.com/maven/libgraviton/maven/graviton-pojo-agent/;publish=1</url>
+    </repository>
+  </distributionManagement>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>8</maven.compiler.source>
